@@ -10,7 +10,7 @@ It helps HR teams and decision-makers identify **attrition risks, career stagnat
 
 # 🌐 Live Application
 
-👉 Streamlit App: https://career-intelligence.streamlit.app
+👉 Streamlit App: https://career-progression-paloalto.streamlit.app/
 
 ---
 
