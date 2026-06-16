@@ -1,90 +1,96 @@
 # 🚀 Career Progression and Promotion Gap Analysis for Retention Optimization
 
-## 🏢 Workforce Intelligence Platform (HR Analytics Project)
+## 🏢 Workforce Intelligence Platform (HR Analytics + Machine Learning Project)
 
-A Streamlit-based **HR Analytics & Machine Learning dashboard** designed to analyze employee career progression, retention risk, promotion gaps, and workforce segmentation.
+This project is an interactive **Streamlit-based HR Analytics dashboard** designed to analyze employee career progression, promotion gaps, retention risk, and workforce segmentation using real HR data and machine learning–engineered insights.
 
-This project helps HR teams and decision-makers make **data-driven workforce decisions** using real employee data and engineered ML features.
-
----
-
-# 📊 Project Overview
-
-Modern organizations face challenges in:
-
-- Employee attrition
-- Promotion delays
-- Career stagnation
-- Retention risks
-- Workforce imbalance
-
-This project solves these problems by building an **interactive analytics platform** that visualizes employee behavior patterns and identifies risk groups using machine learning insights.
+It helps HR teams and decision-makers identify **attrition risks, career stagnation, and promotion delays** to improve employee retention strategies.
 
 ---
 
-# 🎯 Key Objectives
+# 🌐 Live Application
 
-- 📉 Identify employees at risk of attrition  
-- 🚧 Detect promotion stagnation early  
-- 🧠 Segment employees using ML clustering  
-- 📊 Analyze career progression patterns  
-- 🛡 Improve employee retention strategy  
-- 👔 Provide managerial decision support  
+👉 Streamlit App: https://career-intelligence.streamlit.app
+
+---
+
+# 📊 Problem Statement
+
+Organizations often struggle with:
+
+- High employee attrition
+- Promotion delays and stagnation
+- Lack of career growth visibility
+- Poor workforce planning
+- Difficulty identifying high-risk employees
+
+This project solves these issues by building a **data-driven HR intelligence platform**.
+
+---
+
+# 🎯 Objectives
+
+- Identify employees at risk of attrition  
+- Detect promotion stagnation early  
+- Analyze career growth patterns  
+- Segment employees using machine learning  
+- Support HR decision-making with data insights  
+- Improve workforce retention strategies  
 
 ---
 
 # 🧠 Key Features
 
-## 📊 1. Executive Overview
-- Workforce summary dashboard
-- Attrition rate analysis
-- Department-level insights
-- Gender distribution visualization
+## 📊 Executive Overview
+- Workforce summary dashboard  
+- Attrition analysis  
+- Department-wise insights  
+- Gender distribution  
 
-## 🧬 2. Career DNA Explorer
-- PCA-based employee mapping
-- Individual career trajectory visualization
-- Cluster-based segmentation view
+## 🧬 Career DNA Explorer
+- PCA-based employee visualization  
+- Career trajectory mapping  
+- Cluster-based employee grouping  
 
-## 🧠 3. Cluster Intelligence
-- ML-based employee grouping
-- Income & behavior pattern analysis
-- Career cluster interpretation
+## 🧠 Cluster Intelligence
+- Machine learning-based segmentation  
+- Income and behavior pattern analysis  
+- Career cluster interpretation  
 
-## 📈 4. Promotion Gap Monitor
-- Promotion delay detection
-- Adjustable risk threshold
-- Employees flagged for stagnation
+## 📈 Promotion Gap Monitor
+- Promotion delay detection  
+- Adjustable threshold filter  
+- Identifies stagnated employees  
 
-## 🛡 5. Retention Center
-- High-risk employee detection
-- Retention priority segmentation
-- Department-wise risk analysis
+## 🛡 Retention Center
+- High-risk employee identification  
+- Retention priority segmentation  
+- Department-level risk analysis  
 
-## 👔 6. Managerial Insights
-- Job role stability analysis
-- Promotion gap comparison
-- Managerial effectiveness insights
+## 👔 Managerial Insights
+- Job role stability analysis  
+- Promotion gap comparison  
+- Manager effectiveness insights  
 
 ---
 
-# 📂 Dataset Information
+# 📂 Dataset Description
 
-The dataset includes HR employee attributes such as:
+The dataset contains HR employee records with the following attributes:
 
-### 👤 Demographics
-- Age, Gender, Marital Status
+## 👤 Demographics
+- Age, Gender, MaritalStatus, Education
 
-### 💼 Job Information
-- Department, Job Role, Job Level
+## 💼 Job Information
+- Department, JobRole, JobLevel
 
-### 💰 Compensation
-- MonthlyIncome, Salary Hike, Stock Options
+## 💰 Compensation
+- MonthlyIncome, Salary Hike, Stock Option Level
 
-### 📊 Work Experience
-- YearsAtCompany, TotalWorkingYears, JobInvolvement
+## 📊 Work Experience
+- YearsAtCompany, TotalWorkingYears, JobSatisfaction
 
-### 🧠 Engineered ML Features
+## 🧠 Engineered ML Features
 - PromotionGapRatio  
 - RoleStagnationIndex  
 - TrainingIntensityScore  
@@ -96,21 +102,23 @@ The dataset includes HR employee attributes such as:
 
 # 🛠 Tech Stack
 
-- **Frontend:** Streamlit  
-- **Data Processing:** Pandas, NumPy  
-- **Visualization:** Plotly  
-- **Machine Learning:** Scikit-learn (PCA, clustering)  
-- **Language:** Python  
+- Python 🐍  
+- Streamlit 🎈  
+- Pandas 📊  
+- NumPy 🔢  
+- Plotly 📈  
+- Scikit-learn 🤖  
+
 
 ---
 
-#  How to Run Locally
+# 🚀 How to Run Locally
 
 ```bash
 # Clone repository
 git clone https://github.com/Abiramialaguganeshan/career-progression-paloalto.git
 
-# Navigate into folder
+# Move into project folder
 cd career-progression-paloalto
 
 # Install dependencies
@@ -118,12 +126,3 @@ pip install -r requirements.txt
 
 # Run Streamlit app
 streamlit run app.py
-
-
-
-*# 🚀 LIVE DEMO *
-
-#👉 Click below to access the deployed application:
-🔗 Streamlit App
-```md
-https://career-intelligence.streamlit.app
