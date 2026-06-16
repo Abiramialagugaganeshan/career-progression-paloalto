@@ -125,5 +125,5 @@ streamlit run app.py
 
 #👉 Click below to access the deployed application:
 🔗 Streamlit App
-```bash
-https://career-progression-paloalto.streamlit.app/
+```md
+https://career-intelligence.streamlit.app
