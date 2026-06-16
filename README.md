@@ -104,9 +104,6 @@ The dataset includes HR employee attributes such as:
 
 ---
 
-
----
-
 #  How to Run Locally
 
 ```bash
@@ -124,8 +121,9 @@ streamlit run app.py
 
 
 
-**# 🚀 LIVE DEMO **
+*# 🚀 LIVE DEMO *
 
 #👉 Click below to access the deployed application:
 🔗 Streamlit App
+```bash
 https://career-progression-paloalto.streamlit.app/
